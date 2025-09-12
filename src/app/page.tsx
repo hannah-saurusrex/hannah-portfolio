@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center">
+      <main className="flex flex-col gap-4 row-start-2 items-center">
         <Image
           className="bg-opacity-0"
           src="/hannah_happy.png"
@@ -13,7 +13,9 @@ export default function Home() {
           priority
         />
         <h1 className="text-5xl font-bold">Hi, my name is <span className="text-yellow-500">Hannah</span>.</h1>
-        <p className="text-xl">I&apos;m a software developer in <span className="text-yellow-500">Denver, Colorado</span>.</p>
+        <p className="text-xl">I&apos;m a software developer in <span className="text-yellow-500">Denver, Colorado</span>. <br />
+          Currently building neat stuff at UX by Us.
+        </p>
       </main>
       <footer className="row-start-3 gap-6 flex-wrap items-center justify-center">
         <p className="text-xl underline">
