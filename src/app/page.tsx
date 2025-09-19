@@ -14,7 +14,8 @@ export default function Home() {
         />
         <h1 className="text-5xl font-bold">Hi, my name is <span className="text-yellow-500">Hannah</span>.</h1>
         <p className="text-xl">I&apos;m a software developer in <span className="text-yellow-500">Denver, Colorado</span>. <br />
-          Currently building neat stuff at UX by Us.
+          Currently building neat stuff at 
+          <a href="https://uxby.us/" target="_blank" className="text-yellow-500"> UX by Us</a>.
         </p>
       </main>
       <footer className="row-start-3 gap-6 flex-wrap items-center justify-center">
